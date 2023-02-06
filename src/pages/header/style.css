@@ -1,0 +1,43 @@
+.header {
+  position: relative;
+  background-color: #121112;
+}
+.header-wrapper {
+  max-width: 1440px;
+  height: 100vh;
+  margin-inline: auto;
+}
+h1 {
+  font-size: 8rem;
+  color: white;
+  line-height: 8rem;
+}
+h3 {
+  color: white;
+  position: relative;
+  text-align: center;
+  z-index: 5;
+  line-height: 0rem;
+}
+.front-title {
+  position: relative;
+  text-align: center;
+  z-index: 5;
+  margin-top: 25rem;
+  text-shadow: 0 15px 0.05em #000000;
+}
+
+.back-title {
+  position: relative;
+  text-align: center;
+  text-shadow: 0 13.36px 8.896px #000000;
+}
+.img-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
