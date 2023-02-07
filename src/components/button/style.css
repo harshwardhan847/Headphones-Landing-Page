@@ -1,0 +1,14 @@
+.button{
+    background-color: white;
+    color: #121112;
+    padding: .5em;
+    padding-inline: 2em;
+    border-radius: 5rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    word-spacing: .2em;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.645);
+    z-index: 10;
+    width: fit-content;
+    cursor: pointer;
+}

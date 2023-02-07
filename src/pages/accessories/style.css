@@ -1,0 +1,49 @@
+.accessories {
+  width: 100vw;
+  height: 200vh;
+  background-color: #121112;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.accessories-wrapper {
+  max-width: 1440px;
+}
+.first-acc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.bag {
+  width: 50vw;
+  justify-self: center;
+  align-self: center;
+  transform: scale(.4);
+  filter: drop-shadow(0 0 20rem black);
+}
+.acc-title {
+    color: white;
+    font-size: 2.5rem;
+    line-height: .5em;
+}
+.right-col {
+    display: grid;
+    place-content: center;
+}
+.acc-disc {
+    color: grey;
+    line-height: 2em;
+}
+.learn-more {
+    
+    text-decoration: none;
+    padding-top: 1em;
+    color: white;
+}
+.second-acc {
+    text-align: end;
+}
+.cable{
+    transform: scale(.5);
+}

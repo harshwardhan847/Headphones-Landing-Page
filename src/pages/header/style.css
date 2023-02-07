@@ -1,5 +1,4 @@
 .header {
-  position: relative;
   background-color: #121112;
 }
 .header-wrapper {
@@ -7,22 +6,35 @@
   height: 100vh;
   margin-inline: auto;
 }
+.circle {
+  position: absolute;
+  border-radius:50%;
+  background-color: #121112;
+  box-shadow: 0 0 8rem 8px black;
+  width: 100vh;
+  height: 100vh;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
 h1 {
   font-size: 8rem;
   color: white;
-  line-height: 8rem;
+  line-height: 7rem;
 }
-h3 {
+.price{
   color: white;
   position: relative;
   text-align: center;
-  z-index: 5;
   line-height: 0rem;
+  font-size: 1.5rem;
+  z-index: 1;
 }
 .front-title {
   position: relative;
   text-align: center;
-  z-index: 5;
+  z-index: 4;
   margin-top: 25rem;
   text-shadow: 0 15px 0.05em #000000;
 }
@@ -31,13 +43,50 @@ h3 {
   position: relative;
   text-align: center;
   text-shadow: 0 13.36px 8.896px #000000;
+  z-index: 1;
 }
 .img-container {
   position: absolute;
-  width: 100%;
+  width: 1440px;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 3;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+img {
+  filter: drop-shadow(0 20px 10px #000000);
+  position: relative;
+}
+.social-links {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  left: 0;
+  top: 25%;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+svg {
+  transform: scale(1.2);
+}
+.feature {
+  position: absolute;
+  display: flex;
+  gap: 5rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  right: 0;
+  top: 25%;
+}
+h4 {
+  color: grey;
 }

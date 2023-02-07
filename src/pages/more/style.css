@@ -1,0 +1,105 @@
+.more {
+  width: 100vw;
+  height: 100vh;
+  background-color: #121112;
+  display: grid;
+  place-content: center;
+}
+.more-wrapper {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.model {
+  color: white;
+  font-size: 1.5rem;
+}
+.crousel {
+  width: 80vw;
+  height: 80vh;
+  position: relative;
+}
+
+.current {
+  position: absolute;
+  width: 30rem;
+  height: 40rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  z-index: 3;
+  transition: all 0.3s ease;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.side {
+  position: absolute;
+  width: 20rem;
+  height: 30rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+.left {
+  left: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+.left-out {
+  position: absolute;
+  width: 10rem;
+  height: 15rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  left: -50%;
+  transition: all 0.3s ease;
+}
+.right-out {
+  position: absolute;
+  width: 10rem;
+  height: 15rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  right: -50%;
+  transition: all 0.3s ease;
+}
+
+.right {
+  right: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  filter: drop-shadow(0 0  1rem black);
+}
+.one {
+  background-image: url("../../images/model1.png");
+}
+
+.two {
+  background-image: url("../../images/model4.png");
+}
+.three {
+  background-image: url("../../images/model3.png");
+}
+.four {
+  background-image: url("../../images/model2.png");
+}
+.five {
+  background-image: url("../../images/model5.png");
+}
