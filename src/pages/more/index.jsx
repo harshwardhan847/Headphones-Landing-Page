@@ -15,7 +15,7 @@ const More = () => {
       : left === "right side"
       ? setLeft("right-out")
       : left === "right-out"
-      ? setLeft('left-out')
+      ? setLeft("left-out")
       : setLeft("left side");
 
     right === "right side"
@@ -28,15 +28,15 @@ const More = () => {
       ? setRight("current")
       : setRight("right side");
 
-        current === "current"
-          ? setCurrent("right side")
-          : current === "right side"
-          ? setCurrent("right-out")
-          : current === "right-out"
-          ? setCurrent("left-out")
-          : current === "left-out"
-          ? setCurrent("left side")
-          : setCurrent('current');
+    current === "current"
+      ? setCurrent("right side")
+      : current === "right side"
+      ? setCurrent("right-out")
+      : current === "right-out"
+      ? setCurrent("left-out")
+      : current === "left-out"
+      ? setCurrent("left side")
+      : setCurrent("current");
 
     leftOut === "left-out"
       ? setLeftOut("left side")
@@ -48,7 +48,6 @@ const More = () => {
       ? setLeftOut("right-out")
       : setLeftOut("left-out");
 
-
     rightOut === "right-out"
       ? setRightOut("left-out")
       : rightOut === "left-out"
@@ -59,11 +58,69 @@ const More = () => {
       ? setRightOut("right side")
       : setRightOut("right-out");
   };
+  const previous = () => {
+    left === "left side"
+      ? setLeft("left-out")
+      : left === "left-out"
+      ? setLeft("right-out")
+      : left === "right-out"
+      ? setLeft("right side")
+      : left === "right side"
+      ? setLeft("current")
+      : setLeft("left side");
+
+    right === "right side"
+      ? setRight("current")
+      : right === "current"
+      ? setRight("left side")
+      : right === "left side"
+      ? setRight("left-out")
+      : right === "left-out"
+      ? setRight("right-out")
+      : setRight("right side");
+
+    current === "current"
+      ? setCurrent("left side")
+      : current === "left side"
+      ? setCurrent("left-out")
+      : current === "left-out"
+      ? setCurrent("right-out")
+      : current === "right-out"
+      ? setCurrent("right side")
+      : setCurrent("current");
+
+    leftOut === "left-out"
+      ? setLeftOut("right-out")
+      : leftOut === "right-out"
+      ? setLeftOut("right side")
+      : leftOut === "right side"
+      ? setLeftOut("current")
+      : leftOut === "current"
+      ? setLeftOut("left side")
+      : setLeftOut("left-out");
+
+    rightOut === "right-out"
+      ? setRightOut("right side")
+      : rightOut === "right side"
+      ? setRightOut("current")
+      : rightOut === "current"
+      ? setRightOut("left side")
+      : rightOut === "left side"
+      ? setRightOut("left-out")
+      : setRightOut("right-out");
+  };
   return (
     <div className="more">
       <div className="more-wrapper">
         <h3 className="model">Model no - 242</h3>
         <div className="crousel">
+          <div className="previous-btn arrow" onClick={previous}>
+            &lt;
+          </div>
+          <div className="next-btn arrow " onClick={next}>
+            &gt;
+          </div>
+
           <div className={leftOut}>
             <div className="card-img one"></div>
           </div>
@@ -80,7 +137,7 @@ const More = () => {
             <div className="card-img five"></div>
           </div>
         </div>
-        <Button click={next} />
+        <Button />
       </div>
     </div>
   );

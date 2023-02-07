@@ -47,3 +47,6 @@
 .cable{
     transform: scale(.5);
 }
+.left-acc{
+    text-align: start;
+}

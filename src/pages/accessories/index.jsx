@@ -23,13 +23,13 @@ const Accessories = () => {
           </div>
         </div>
       </div>
-      <div className="accessories-wrapper">
+      <div className="accessories-wrapper left">
         <div className="first-acc">
           <div className="right-col">
             <img src={cable} alt="" className="bag cable"/>
           </div>
-          <div className="left-col second-acc">
-            <h2 className="acc-title">Headphone Bag</h2>
+          <div className="left-col second-acc left-acc">
+            <h2 className="acc-title">Apple Beats Charger</h2>
             <p className="acc-disc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
               similique tempore ducimus obcaecati tempora eligendi ratione dicta

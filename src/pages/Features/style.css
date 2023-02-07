@@ -1,18 +1,148 @@
-.features{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #121112;
+.features {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121112;
 }
 .features-wrapper {
-    max-width: 1440px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .feature-img {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+.spot1 {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.311);
+  transition: all 0.05s ease;
+  cursor: pointer;
+  left: 59%;
+  transform: translateY(788%);
+}
+.spot1:hover {
+  box-shadow: 0 0 0 0.7rem rgba(255, 255, 255, 0.311);
+}
+.spot1:hover .line {
+  visibility: visible;
+}
+.spot1:hover .text {
+  visibility: visible;
+}
+
+.spot2 {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.311);
+  transition: all 0.05s ease;
+  cursor: pointer;
+  left: 34%;
+  transform: translateY(690%);
+}
+.spot2:hover {
+  box-shadow: 0 0 0 0.7rem rgba(255, 255, 255, 0.311);
+}
+.spot2:hover .line {
+  visibility: visible;
+}
+.spot2:hover .text {
+  visibility: visible;
+}
+
+.spot3 {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.311);
+  transition: all 0.05s ease;
+  cursor: pointer;
+  left: 42%;
+  transform: translateY(200%);
+}
+.spot3:hover {
+  box-shadow: 0 0 0 0.7rem rgba(255, 255, 255, 0.311);
+}
+.spot3:hover .line {
+  visibility: visible;
+}
+.spot3:hover .text {
+  visibility: visible;
+}
+
+.spot4 {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.5rem rgba(255, 255, 255, 0.311);
+  transition: all 0.05s ease;
+  cursor: pointer;
+  left: 50%;
+  transform: translateY(-700%);
+}
+.spot4:hover {
+  box-shadow: 0 0 0 0.7rem rgba(255, 255, 255, 0.311);
+}
+.spot4:hover .line {
+  visibility: visible;
+}
+.spot4:hover .text {
+  visibility: visible;
+}
+.line {
+  content: "";
+  width: 0.2rem;
+  height: 22rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  transform-origin: top;
+  rotate: 225deg;
+  background-color: white;
+  visibility: hidden;
+}
+.text {
+  position: absolute;
+  left: 1281%;
+  top: -1177%;
+  transform: translate(-50%);
+  transform-origin: top;
+  rotate: 0deg;
+  color: white;
+  visibility: hidden;
+}
+.show {
+  visibility: visible !important;
+}
+
+.clear-line {
+  rotate: 160deg;
+  height: 11rem;
+}
+.clear-text {
+  left: -300%;
+  top: -800%;
+}
+.max-line {
+  rotate: 150deg;
+  height: 15rem;
+}
+.max-text {
+  left: -500%;
+  top: -1000%;
 }

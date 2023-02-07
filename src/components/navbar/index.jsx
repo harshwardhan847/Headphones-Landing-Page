@@ -5,7 +5,8 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 const Navbar = () => {
   return (
     <nav>
-        <div className="logo">logo</div>
+      <div className="nav-wrapper">
+        <div className="logo">Apple Beats</div>
         <div className="nav-items">
           <ul>
             <li className="nav-item active">Home</li>
@@ -23,6 +24,7 @@ const Navbar = () => {
             <AiOutlineShoppingCart />
           </div>
         </div>
+      </div>
     </nav>
   );
 };
