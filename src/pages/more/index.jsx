@@ -112,7 +112,7 @@ const More = () => {
   return (
     <div className="more">
       <div className="more-wrapper">
-        <h3 className="model">Model no - 242</h3>
+        <h3 className="model"data-aos="zoom-in">Model no - 242</h3>
         <div className="crousel">
           <div className="previous-btn arrow" data-aos="fade-in" onClick={previous}>
             &lt;
@@ -127,7 +127,7 @@ const More = () => {
           <div id="left-card" className={left}>
             <div className="card-img two"></div>
           </div>
-          <div id="current" className={current}>
+          <div id="current"  className={current}>
             <div className="card-img three"></div>
           </div>
           <div id="right-card" className={right}>
