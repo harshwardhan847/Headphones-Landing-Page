@@ -16,7 +16,7 @@ const Accessories = () => {
               similique tempore ducimus obcaecati tempora eligendi ratione dicta
               molestias delectus recusandae.
             </p>
-            <a href="#" className="learn-more">Learn more &gt;</a>
+            <a href="./" className="learn-more">Learn more &gt;</a>
           </div>
           <div className="right-col">
             <img src={bag} alt="" className="bag"/>
@@ -35,7 +35,7 @@ const Accessories = () => {
               similique tempore ducimus obcaecati tempora eligendi ratione dicta
               molestias delectus recusandae.
             </p>
-            <a href="#" className="learn-more">Learn more &gt;</a>
+            <a href="./" className="learn-more">Learn more &gt;</a>
           </div>
         </div>
       </div>
