@@ -7,8 +7,8 @@ const Intro = ({button, title, disc}) => {
       <div className="intro-wrapper">
         {button===true?<Button/>:''}
         <div className="intro-text">
-          <h2 className="intro-title">{title}</h2>
-          <p className="intro-disc">
+          <h2 className="intro-title"data-aos="fade-up">{title}</h2>
+          <p className="intro-disc"data-aos="fade-up">
            {disc}
           </p>
         </div>

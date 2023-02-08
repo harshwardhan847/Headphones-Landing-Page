@@ -144,7 +144,7 @@
 .arrow {
   z-index: 10;
   color: white;
-  transform: scale(7);
+  scale: 7;
   font-weight: lighter;
   cursor: pointer;
   -webkit-user-select: none; /* Safari */

@@ -9,7 +9,7 @@ import {
 } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa";
 import AOS from "aos";
-import 'aos/dist/aos.css'
+import "aos/dist/aos.css";
 
 const Header = () => {
   useEffect(() => {
@@ -18,7 +18,13 @@ const Header = () => {
   return (
     <div className="header">
       <div className="img-container">
-        <img src={headerImg} alt="" className="back-img" data-aos="zoom-in"data-aos-duration="600"></img>
+        <img
+          src={headerImg}
+          alt=""
+          className="back-img"
+          data-aos="zoom-in"
+          data-aos-duration="600"
+        ></img>
         <h4 className="social-links" data-aos="fade-up">
           Follow us -
           <div className="social-icons">
@@ -28,17 +34,28 @@ const Header = () => {
             <AiFillYoutube />
           </div>
         </h4>
-        <div className="feature"data-aos="fade-up">
+        <div className="feature" data-aos="fade-up">
           <h4>Wireless</h4>
           <h4>Beats Studio 3</h4>
         </div>
       </div>
-      <div className="circle" ></div>
+      <div
+        className="circle"
+        data-aos="zoom-in-up"
+        data-aos-duration="2000"
+        style={{
+          transform: "translate(-50%,-50%)",
+        }}
+      ></div>
       <div className="header-wrapper">
         <Navbar />
         <div className="content">
-          <h1 className="front-title"data-aos="slide-left">SURFACE</h1>
-          <h1 className="back-title"data-aos="slide-right">HEADPHONES</h1>
+          <h1 className="front-title" data-aos="slide-left">
+            SURFACE
+          </h1>
+          <h1 className="back-title" data-aos="slide-right">
+            HEADPHONES
+          </h1>
           <h3 className="price">Price: 285$</h3>
         </div>
       </div>

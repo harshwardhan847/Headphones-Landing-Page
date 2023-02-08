@@ -115,6 +115,7 @@
   rotate: 225deg;
   background-color: white;
   visibility: hidden;
+  
 }
 .text {
   position: absolute;
@@ -127,7 +128,7 @@
   visibility: hidden;
 }
 .show {
-  visibility: visible !important;
+  visibility: visible;
 }
 
 .clear-line {

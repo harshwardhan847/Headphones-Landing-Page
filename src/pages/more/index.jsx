@@ -114,10 +114,10 @@ const More = () => {
       <div className="more-wrapper">
         <h3 className="model">Model no - 242</h3>
         <div className="crousel">
-          <div className="previous-btn arrow" onClick={previous}>
+          <div className="previous-btn arrow" data-aos="fade-in" onClick={previous}>
             &lt;
           </div>
-          <div className="next-btn arrow " onClick={next}>
+          <div className="next-btn arrow" data-aos="fade-in" onClick={next}>
             &gt;
           </div>
 
