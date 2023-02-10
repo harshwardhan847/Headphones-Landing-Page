@@ -116,20 +116,20 @@
   z-index: 2;
 }
 .one {
-  background-image: url("../../images/model1.png");
+  background-image: url("../../images/model1.webp");
 }
 
 .two {
-  background-image: url("../../images/model4.png");
+  background-image: url("../../images/model4.webp");
 }
 .three {
-  background-image: url("../../images/model3.png");
+  background-image: url("../../images/model3.webp");
 }
 .four {
-  background-image: url("../../images/model2.png");
+  background-image: url("../../images/model2.webp");
 }
 .five {
-  background-image: url("../../images/model5.png");
+  background-image: url("../../images/model5.webp");
 }
 .previous-btn {
   position: absolute;

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Navbar from "../../components/navbar";
 import "./style.css";
-import headerImg from "../../images/pngwing.png";
+import headerImg from "../../images/pngwing.webp";
 import {
   AiOutlineTwitter,
   AiFillInstagram,

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
-import headerImg from "../../images/pngwing.png";
+import headerImg from "../../images/pngwing.webp";
 import Button from "../../components/button";
 const Features = () => {
   const [show, setShow] = useState("");

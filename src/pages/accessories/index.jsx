@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-import bag from '../../images/bag.png'
-import cable from '../../images/cable.png'
+import bag from '../../images/bag.webp'
+import cable from '../../images/cable.webp'
 import Button from '../../components/button'
 const Accessories = () => {
   return (
